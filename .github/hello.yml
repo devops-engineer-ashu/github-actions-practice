@@ -1,0 +1,19 @@
+name: hello
+#these are the jobs insdie the the workflow 
+
+on:
+ push: 
+  branches: [main]
+
+
+jobs :
+    greet:
+    runs-on: ubuntu-latest
+    steps:
+     runs-on: ubuntu-latest
+     -name: Check out the code
+     uses: actions/checkout@v4
+
+    -name: hello from github actions 
+    run: echo"Hello from GitHub Actions!"
+
