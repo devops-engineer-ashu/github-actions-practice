@@ -17,7 +17,7 @@ jobs :
       - name: hello from github actions 
         run: echo "Hello from GitHub Actions!"
 
-  more-data:
+  environment-check:
      runs-on: ubuntu-latest
 
      steps:
